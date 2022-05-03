@@ -32,9 +32,24 @@ print("***Insertion Sort***")
 print("input: " , [2, 92, 8, -4, 0])
 print("output: " , insertion_sort([2, 92, 8, -4, 0]))
 '''
-
+'''
+from unittest import result
 from searching.binary_search import binary_search
 
 print("***Binary Search***")
-n = 0
-binary_search(n)
+
+print("input: " , [2, 92, 8, -4, 0])
+print("output: " , binary_search([2, 92, 8, -4, 0] , 0))
+
+if result == -1:
+    print("Ele elemento no se encontró")
+else:
+    print("El elemento está presente en la casilla: ", str(result))
+'''
+'''
+from searching.linear_search import linear_search
+
+print("***Linear Search***")
+print("input: " , [2, 92, 8, -4, 0])
+print("output: " , linear_search([2, 92, 8, -4, 0] , 8))
+'''

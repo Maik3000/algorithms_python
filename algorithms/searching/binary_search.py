@@ -17,11 +17,3 @@ def binary_search(arr, x):
             return med
  
     return -1
-arr = [ 2, 3, 4, 1, 5 ]
-x = 4
-n = len(arr)
-result = binary_search(arr, x)
-if result == -1:
-    print("Ele elemento no se encontró")
-else:
-    print("El elemento está presente en la casilla: ", str(result))
