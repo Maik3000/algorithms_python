@@ -8,9 +8,10 @@ def bubble_sort(arr):
                 arr[j], arr[j+1] = arr[j+1] , arr[j]
     
     return arr
-
+'''
 unsorted_list = [-2,6,4,67,13]
 print("Lista deordenada: " , unsorted_list)
 
 sorted_list = bubble_sort(unsorted_list)
 print("Lista ordenada: " , sorted_list)
+'''
