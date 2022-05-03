@@ -53,3 +53,8 @@ print("***Linear Search***")
 print("input: " , [2, 92, 8, -4, 0])
 print("output: " , linear_search([2, 92, 8, -4, 0] , 8))
 '''
+
+from recursion.factorial import fact
+
+print("***Factorial de n***")
+print("El factorial es: " , fact(6))
