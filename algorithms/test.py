@@ -25,9 +25,16 @@ print("***Bubble Sort Optimizado***")
 print("input: " , [2, 92, 8, -4, 0])
 print("output: " , bubble_sort_opt([2, 92, 8, -4, 0]))
 '''
-
+'''
 from sorting.insertion_sort import insertion_sort
 
 print("***Insertion Sort***")
 print("input: " , [2, 92, 8, -4, 0])
 print("output: " , insertion_sort([2, 92, 8, -4, 0]))
+'''
+
+from searching.binary_search import binary_search
+
+print("***Binary Search***")
+n = 0
+binary_search(n)
