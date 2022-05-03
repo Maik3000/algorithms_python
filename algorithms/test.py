@@ -59,8 +59,14 @@ from recursion.factorial import fact
 print("***Factorial de n***")
 print("El factorial es: " , fact(6))
 '''
-
+'''
 from recursion.countdown import regresive
 
 print("***Cuenta regresiva***")
 print(regresive(10+1))
+'''
+
+from recursion.fibonacci import fibonacci
+
+print("***Fibonacci***")
+print(fibonacci(10))
