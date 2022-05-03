@@ -71,8 +71,14 @@ from recursion.fibonacci import fibonacci
 print("***Fibonacci***")
 print(fibonacci(10))
 '''
-
+'''
 from recursion.sum import sum
 
 print("***suma de los primeros n numeros***")
 print(sum(10))
+'''
+
+from brute_force.pin_unlock import unlock
+
+print("***Pin unlock***")
+print(unlock("2812"))
