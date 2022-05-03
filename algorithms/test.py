@@ -77,8 +77,16 @@ from recursion.sum import sum
 print("***suma de los primeros n numeros***")
 print(sum(10))
 '''
-
+'''
 from brute_force.pin_unlock import unlock
 
 print("***Pin unlock***")
 print(unlock("2812"))
+'''
+
+from brute_force.divisoresn import divisors
+
+print("***Divisores de n***")
+n = 381
+result = divisors(381)
+print("n: " + str(n) + " divisors: " + str(result))
