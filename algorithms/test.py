@@ -65,8 +65,14 @@ from recursion.countdown import regresive
 print("***Cuenta regresiva***")
 print(regresive(10+1))
 '''
-
+'''
 from recursion.fibonacci import fibonacci
 
 print("***Fibonacci***")
 print(fibonacci(10))
+'''
+
+from recursion.sum import sum
+
+print("***suma de los primeros n numeros***")
+print(sum(10))
