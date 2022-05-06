@@ -97,3 +97,8 @@ from brute_force.sum import suma
 print("***suma de los primeros n numeros***")
 n = int(input("ingrese un numero n: "))
 '''
+
+from lists.list_merge import combinar
+
+print("***List merge***")
+combinar()
